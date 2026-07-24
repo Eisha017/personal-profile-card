@@ -86,19 +86,11 @@ This project helped strengthen my understanding of:
 - CSS Transitions
 - UI Design Principles
 
----
 
 ## 🌐 Live Demo
 
-Add your GitHub Pages link here after deployment.
+[View Live Demo](https://eisha017.github.io/personal-profile-card/)
 
-Example:
-
-```
-https://eisha017.github.io/profile-card/
-```
-
----
 
 ## 👩‍💻 Author
 
