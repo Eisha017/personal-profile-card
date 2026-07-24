@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Personal Profile Card</title>
+    <title>Profile Card | Eisha Naeem</title>
 
     <!-- Google Font -->
 
@@ -15,12 +15,14 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
+    <!-- Font Awesome -->
 
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
 
     <link rel="stylesheet" href="style.css">
 
@@ -28,57 +30,121 @@
 
 <body>
 
-    <div class="card">
+    <!-- Background -->
 
-        <img src="images/myprof.jpeg" alt="Profile Picture">
+    <div class="background">
 
-        <h1>Eisha Naeem</h1>
+        <div class="blob blob1"></div>
 
-        <h3>Computer Engineering Student</h3>
+        <div class="blob blob2"></div>
 
-        <p>
-            Passionate about creating modern web applications, exploring Artificial
-            Intelligence and continuously learning new technologies to build
-            meaningful digital solutions.
-        </p>
-
-        <div class="skills">
-
-            <span>HTML</span>
-
-            <span>CSS</span>
-
-            <span>JavaScript</span>
-
-            <span>Python</span>
-
-            <span>AI</span>
-
-            <span>Machine Learning</span>
-
-            <span>Git</span>
-
-        </div>
-
-        <button>Contact Me</button>
-
-        <div class="socials">
-
-            <a href="https://github.com/Eisha017" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="https://www.linkedin.com/in/eishaa-naeem" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-
-            <a href="mailto:eishaa030@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-
-        </div>
+        <div class="blob blob3"></div>
 
     </div>
+
+
+    <!-- Main Container -->
+
+    <main class="container">
+
+        <section class="profile-card">
+
+            <!-- Profile Image -->
+
+            <div class="profile">
+
+                <img src="images/myprof.jpeg"
+                    alt="Eisha Naeem">
+
+            </div>
+
+
+            <!-- Name -->
+
+            <h1>Eisha Naeem</h1>
+
+
+            <!-- Profession -->
+
+            <h2>Computer Engineer</h2>
+
+
+            <!-- About -->
+
+            <p class="about">
+
+                Passionate about building modern, responsive web applications while
+                continuously improving my front-end development skills and
+                working towards a career in AI Engineering.
+
+            </p>
+
+
+            <!-- Skills -->
+
+            <div class="skills">
+
+                <span>HTML</span>
+
+                <span>CSS</span>
+
+                <span>JavaScript</span>
+
+                <span>Git</span>
+
+                <span>Responsive Design</span>
+
+            </div>
+
+
+            <!-- Contact Button -->
+
+            <a href="mailto:eishaa030@gmail.com" class="contact-btn">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+                Contact Me
+
+            </a>
+
+
+            <!-- Divider -->
+
+            <div class="divider"></div>
+
+
+            <!-- Social Links -->
+
+            <div class="socials">
+
+                <a href="https://github.com/Eisha017"
+                    target="_blank"
+                    aria-label="GitHub">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/eishaa-naeem"
+                    target="_blank"
+                    aria-label="LinkedIn">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+
+                <a href="mailto:eishaa030@gmail.com"
+                    aria-label="Email">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 
