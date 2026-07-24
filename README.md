@@ -1,27 +1,10 @@
-# 🌟 Modern Profile Card
+#  Modern Profile Card
 
 A modern, responsive personal profile card built using **HTML5** and **CSS3**. This project showcases a clean UI with glassmorphism, gradient backgrounds, smooth hover animations, and a mobile-first responsive layout.
 
-
-
 ## 📸 Preview
 
-> Add a screenshot of your project here.
-
-Example:
-
-```
-assets/
-└── preview.png
-```
-
-Then use:
-
-```markdown
-![Project Preview](assets/preview.png)
-```
-
----
+![Modern Profile Card](assets/preview.png)
 
 ## ✨ Features
 
